@@ -11,15 +11,10 @@ import java.util.List;
 public class Subject406 {
 
     public static void main(String[] args) {
-        int[][] people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
-        int[][] res = reconstructQueue(people);
-        for(int [] tmp:res)
-        {
-            System.out.println(tmp[0]);
-        }
+
     }
 
-    public static int[][] reconstructQueue(int[][] people) {
+    public  int[][] reconstructQueue(int[][] people) {
         if (people == null) {
             return null;
         }
