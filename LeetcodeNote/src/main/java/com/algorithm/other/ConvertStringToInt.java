@@ -1,16 +1,13 @@
-package com.algorithm.other;/**
- * Created by feipeixuan on 2017/8/10.
- */
+package com.algorithm.other;
 
 /**
  * @Author: feipeixuan
  * @Version:
- * @Link: Å£¿ÍÍø
- * @From: ½£Ö¸offer
+ * @Link:
+ * @From: ç‰›å®¢ç½‘
  */
 public class ConvertStringToInt {
 
-    /* ×¢Òâ¿¼ÂÇ¸÷ÖÖÇé¿ö£¬¿Õ×Ö·û´®£¬°üº¬·Ç·¨×Ö·û£¬Õý¸ºÊý  */
     public int StrToInt(String str) {
         if (str == null || str.equals(""))
             return 0;

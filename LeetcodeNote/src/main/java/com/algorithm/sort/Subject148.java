@@ -5,13 +5,12 @@ package com.algorithm.sort;
  */
 public class Subject148 {
 
-    public static  void main(String args[])
-    {
-        ListNode head=new ListNode(3);
-        head.next=new ListNode(1);
-        head.next.next=new ListNode(2);
-        head.next.next.next=null;
-        Subject148 solution=new Subject148();
+    public static void main(String args[]) {
+        ListNode head = new ListNode(3);
+        head.next = new ListNode(1);
+        head.next.next = new ListNode(2);
+        head.next.next.next = null;
+        Subject148 solution = new Subject148();
         solution.sortList(head);
     }
 
@@ -38,8 +37,8 @@ public class Subject148 {
             return p;
         ListNode temp = findMiddle(p), middle = temp.next;
         temp.next = null;
-        ListNode head1=merge_sort(p);
-        ListNode head2=merge_sort(middle);
+        ListNode head1 = merge_sort(p);
+        ListNode head2 = merge_sort(middle);
         return merge(head1, head2);
     }
 

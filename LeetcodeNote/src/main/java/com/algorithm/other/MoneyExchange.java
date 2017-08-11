@@ -2,10 +2,10 @@ package com.algorithm.other;
 
 
 /**
- * @Author: feipeixuan
- * @Version: ½ğ±Ò¶Ò»»:·ÖÎª 1, 3, 5, 7 ËÄÖÖ¹æ¸ñ
- * @Link: http://blog.csdn.net/u010809185/article/details/51511512
- * @From: Ô³¸¨µ¼
+ * @Author:  feipeixuan
+ * @Version: é‡‘å¸åˆ’åˆ† 1, 3, 5, 7
+ * @Link:    http://blog.csdn.net/u010809185/article/details/51511512
+ * @From:    ç‰›å®¢ç½‘
  */
 
 public class MoneyExchange {
