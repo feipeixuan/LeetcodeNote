@@ -8,6 +8,10 @@ package com.algorithm.other;
  */
 public class ConvertStringToInt {
 
+    /*
+       需要考虑下面几种情况：
+       1.空 2.正负符号 3.非法字符
+     */
     public int StrToInt(String str) {
         if (str == null || str.equals(""))
             return 0;
