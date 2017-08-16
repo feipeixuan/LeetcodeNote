@@ -30,7 +30,6 @@ public class HasSubTree {
 
     }
 
-
     class TreeNode {
         int val = 0;
         TreeNode left = null;
